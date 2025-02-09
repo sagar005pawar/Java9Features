@@ -16,7 +16,7 @@ interface Sayable{
 }  
 public class PrivateInterface2 implements Sayable {  
     public static void main(String[] args) {  
-        Sayable s = new PrivateInterface();  
+        Sayable s = new PrivateInterface2();  
         s.say();  
     }  
 }
